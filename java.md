@@ -162,7 +162,7 @@ The workshop is split into several steps. You can write one query per step, or w
       )
     }
     ```
-    [`exists`](https://help.semmle.com/QL/ql-handbook/formulas.html#exists) is a mechanism for introducing temporary variables with a restricted scope. You can think of them as their own `from`-`where`-`select`. In this case, we use it to introduce the `fromXML` temporary variable, with type `MethodAccess`.
+    [`exists`](https://codeql.github.com/docs/ql-language-reference/formulas/#exists) is a mechanism for introducing temporary variables with a restricted scope. You can think of them as their own `from`-`where`-`select`. In this case, we use it to introduce the `fromXML` temporary variable, with type `MethodAccess`.
 
     <details>
     <summary>Hint</summary>
